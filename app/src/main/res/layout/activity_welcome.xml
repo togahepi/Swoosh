@@ -59,5 +59,4 @@
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp" android:layout_marginBottom="16dp"
             app:layout_constraintBottom_toBottomOf="@+id/background" android:fontFamily="@font/montserrat"
             android:textColor="@android:color/white" android:background="@drawable/swoosh_button"/>
-    android:background="@null"
 </android.support.constraint.ConstraintLayout>
