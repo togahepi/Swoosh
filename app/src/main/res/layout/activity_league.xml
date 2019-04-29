@@ -44,24 +44,24 @@
         <ToggleButton
                 android:text="@string/mens"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton3" android:textOff="@string/mens"
+                android:layout_height="wrap_content" android:id="@+id/mensLeagueButt" android:textOff="@string/mens"
                 android:textOn="@string/mens" android:background="@drawable/swoosh_toggle"
                 android:textColor="@android:color/white" android:layout_marginBottom="16dp"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false" android:onClick="mensOnClicked"/>
         <ToggleButton
                 android:text="@string/womens"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton2" android:textOff="@string/womens"
+                android:layout_height="wrap_content" android:id="@+id/womensLeagueButt" android:textOff="@string/womens"
                 android:textOn="@string/womens" android:background="@drawable/swoosh_toggle"
                 android:textColor="@android:color/white" android:layout_marginBottom="16dp"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false" android:onClick="womensOnClicked"/>
         <ToggleButton
                 android:text="@string/co_ed"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/toggleButton" android:textOff="@string/co_ed" android:textOn="@string/co_ed"
+                android:id="@+id/coEdLeagueButt" android:textOff="@string/co_ed" android:textOn="@string/co_ed"
                 android:background="@drawable/swoosh_toggle" android:textColor="@android:color/white"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false" android:onClick="coEdOnClicked"/>
     </LinearLayout>
     <Button
             android:text="@string/next"
